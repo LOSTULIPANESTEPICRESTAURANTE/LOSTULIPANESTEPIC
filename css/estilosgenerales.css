@@ -1,0 +1,84 @@
+/*estilos generales para todaas las prestaciones*/
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF; /*color de fondo blanco*/
+
+}
+
+/* Estilos globales */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+/* Encabezado */
+header{
+	background-color: #FF5733; /*encabezado color naranja*/
+	color: #010101; /*letras de otro color donde dice cafe y restaurte*/
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #37CF0E; /*linea*/
+}
+
+/*hasta aqui es pero vere si lo puedo acomodar */
+
+header a{
+	color:#FFFFFF; /*color de las letras del encabezado*/
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+}
+
+header #marca {
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado{
+	color: #FFFFFF; /*color de donde dice los tulipanes */
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #37CF0E; /*color de sombreado*/
+	font-weight: bold;
+}
+
+/*hasta aqui esta bien solo es chechar los colores con el diseño de fatima*/
+
+
+
+/*la barra de redes sociales*/
+ 
+.sociales{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* color blanco en siempre en los mejores momentos*/
+
+h1 {
+	color: #FFFFFF;
+}

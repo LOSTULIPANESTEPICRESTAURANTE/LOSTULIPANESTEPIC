@@ -1,0 +1,107 @@
+
+
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF; /*color de fondo blanco*/
+
+}
+
+/* Estilos globales */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+/* Encabezado */
+header{
+	background-color: #FF5733; /*encabezado color naranja*/
+	color: #010101; /*letras de otro color donde dice cafe y restaurte*/
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #37CF0E; /*linea*/
+}
+
+/*hasta aqui es pero vere si lo puedo acomodar */
+
+header a{
+	color:#FFFFFF; /*color de las letras del encabezado*/
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+}
+
+header #marca {
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado{
+	color: #FFFFFF; /*color de donde dice los tulipanes */
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #37CF0E; /*color de sombreado*/
+	font-weight: bold;
+}
+
+/*promociones*/
+
+/*cajas*/
+
+#cajas{
+	margin-top: 20px;
+}
+
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#cajas .caja img{
+	width: 200px;
+}
+
+/*imagen de fondo*/
+
+body{
+	background-image: url('../img/fondo1.jpg'); /*aqui se puede poner una imagen de fondo a elegir*/
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+
+}
+
+/*color de letras*/ 
+
+p {
+  color: #ECFB00;
+}
+
+h3 {
+	color:#FF0000;
+}

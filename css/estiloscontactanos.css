@@ -1,0 +1,144 @@
+/*estilos generales para todaas las prestaciones*/
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF; /*color de fondo blanco*/
+
+}
+
+/* Estilos globales */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+/* Encabezado */
+header{
+	background-color: #FF5733; /*encabezado color naranja*/
+	color: #010101; /*letras de otro color donde dice cafe y restaurte*/
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #37CF0E; /*linea*/
+}
+
+/*hasta aqui es pero vere si lo puedo acomodar */
+
+header a{
+	color:#FFFFFF; /*color de las letras del encabezado*/
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+}
+
+header #marca {
+	float: left;
+}
+
+header #marca h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .resaltado{
+	color: #FFFFFF; /*color de donde dice los tulipanes */
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #37CF0E; /*color de sombreado*/
+	font-weight: bold;
+}
+
+/*imagen de fondo*/
+
+body{
+	background-image: url('../img/fondo4.jpg'); /*aqui se puede poner una imagen de fondo a elegir*/
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+
+}
+
+/*formulario*/
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+h2 {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+	background: #31384A;
+	color: #FFFFFF;
+    padding: 20px;
+}
+
+#boton:hover{
+	background: #8B0808;
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+form{
+ width: 100%;
+}
+}
+
+/*sociales*/
+
+.sociales{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*estilos de gracias*/
+
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
